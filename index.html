@@ -1,0 +1,15 @@
+	<div class="event-calculator">
+		<h2>event calculator</h2>
+	</div>
+	<div class="cal-form">
+		<div class="input_fields_wrap">
+			<div class="main"><input type="number" name="myprice[]" value="" placeholder="Price per ticket (&pound;)" class="price">
+			<input type="number" name="myqunty[]" value="" class="quantity" placeholder="Number of tickets" onkeyup="return doCalc(); "><span class="subamount"></span></div>	
+			
+			<button class="add_field_button">Add new price tier <i class="fas fa-plus-circle"></i></button>
+		</div>
+		<div class="form">
+			<div>Uvent Commission : <input type="text" name="total" id="total_commission"/></div>
+			<div>Total due to you: <input type="text" name="total" id="total"/></div>
+		</div>
+	</div>
